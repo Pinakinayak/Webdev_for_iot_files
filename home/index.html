@@ -1,0 +1,545 @@
+<!doctype html>
+<html><head>
+    <meta charset="utf-8">
+    <title>Home automation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Pinaki">
+
+    
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/font-style.css" rel="stylesheet">
+
+ 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/9.8.1/css/bootstrap-slider.css" />
+
+    <!-- Custom styles for this template -->
+    
+    
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+    
+
+   
+
+   
+
+  	<!-- Google Fonts call. Font Used Open Sans & Raleway -->
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,400" rel="stylesheet" type="text/css">
+  	<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+
+    
+  </head>
+  <body>
+  
+  
+
+    
+    <div id="wrapper" class="toggled">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#top">
+                        Home Automation
+                    </a>
+                </li>
+                <li>
+                    <a href="#top">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#light" >Lights</a>
+                </li>
+                <li>
+                    <a href="#ac" >Air Conditioning</a>
+                </li>
+                <li>
+                    <a href="#projector" >Projector</a>
+                </li>
+                <li>
+                    <a href="#computer" >Personel Computer</a>
+                </li>
+                <li>
+                    <a href="#fans" >Fan</a>
+                </li>
+                
+            </ul>
+        </div>
+  <div class="navbar-header" >
+  
+          <button type="button" class="navbar-toggle" id="menu-toggle" data-target="#menu-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div> 
+
+        <!-- /#sidebar-wrapper -->
+        <div id="page-content-wrapper">
+
+            <div class="container-fluid">
+             
+            	<div id="top"><h1>Home Automation DashBoard</h1></div>
+
+			     <div class="container" id="light">
+			     <h3>Light Switches</h3>
+				  <!-- FIRST ROW OF BLOCKS -->     
+			      <div class="row">
+
+			          
+					<div class="col-sm-4 col-lg-4">
+						<div class="dash-unit">
+				      		<dtitle>light switches-1</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="light1" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="light1">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4">
+						<div class="dash-unit">
+				      		<dtitle>light switches-2</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="light2" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="light2">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4">
+						<div class="dash-unit">
+				      		<dtitle>light switches-3</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="light3" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="light3">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4">
+						<div class="dash-unit">
+				      		<dtitle>light switches-4</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="light4" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="light4">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4">
+						<div class="dash-unit">
+				      		<dtitle>light switches-5</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="light5" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="light5">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-sm-4 col-lg-4">
+						<div class="dash-unit">
+				      		<dtitle>light switches-6</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="light6" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="light6">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+				 
+				</div><!--/row -->
+			     
+			      <div class="row">
+			      			<div class="col-sm-1 col-lg-1"></div>
+			      			<div class="col-sm-10 col-lg-10">
+			      				<h3>Intensity control</h3>
+								<div class="dash-unit">
+					      			<dtitle>Intensity</dtitle>
+					      			<hr>
+					      		
+									<br>
+									<div class="range-slider" id="slid">
+							 		 	<input class="range-slider__range" type="range" id="range" >
+							 	 		<span class="range-slider__value" id="value" ></span>
+									</div>
+								</div>
+							</div>
+			     		 </div>
+					  </div> <!-- /container -->
+					  <hr>
+			     <div class="container" id="ac">
+			     		<h3>Air Conditioner</h3>
+				  <!-- FIRST ROW OF BLOCKS -->     
+			      <div class="row">
+
+			          
+					<div class="col-sm-6 col-lg-6">
+						<div class="dash-unit">
+				      		<dtitle>Air Conditioner-1</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="ac1" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="ac1">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-6">
+						<div class="dash-unit">
+				      		<dtitle>Air Conditioner-2</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="ac2" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="ac2">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+						</div>
+					  </div> <!-- /container -->
+					    <hr>
+			     <div class="container" >
+			     		
+				  <!-- FIRST ROW OF BLOCKS -->     
+			      <div class="row">
+
+			          
+					<div class="col-sm-6 col-lg-6" id="projector">
+					<h3>Projector</h3>
+						<div class="dash-unit">
+				      		<dtitle>Projector</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="projector" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="projector">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-6" id="computer">
+					<h3>Personel computer</h3>
+						<div class="dash-unit">
+				      		<dtitle>Personel Computer</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="pc" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="pc">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+						</div>
+					  </div> <!-- /container -->
+					     <hr>
+			     <div class="container" id="fans">
+			     		<h3>Fans</h3>
+				  <!-- FIRST ROW OF BLOCKS -->     
+			      <div class="row">
+
+			          
+					<div class="col-sm-6 col-lg-6">
+					
+						<div class="dash-unit">
+				      		<dtitle>Fans-1</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="fan1" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="fan1">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+					<div class="col-sm-6 col-lg-6">
+					
+						<div class="dash-unit">
+				      		<dtitle>Fans-2</dtitle>
+				      		<hr>
+				      		<div class="info-user">
+								<span aria-hidden="true" class="li_params fs2"></span>
+							</div>
+							<br>
+							<div class="onoffswitch">
+					    		<input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="fan2" onclick="update(this.id);">
+					    		<label class="onoffswitch-label" for="fan2">
+					       		 <span class="onoffswitch-inner"></span>
+					        		<span class="onoffswitch-switch"></span>
+					    			</label>
+							</div>
+							
+						</div>
+					</div>
+						</div>
+					  </div> <!-- /container -->
+
+           		   </div>
+        		</div>
+ 			</div>
+ 			
+        
+
+   
+
+   
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap-slider.js"></script>
+    
+    <!--custom scripts-->
+    <script type="text/javascript">
+
+$(document).ready(function() {hello();
+							  		window.setInterval(function(){
+                                                        hello();
+                                                      }, 5000);  });
+
+
+							  
+
+	function hello () {
+		 
+	
+		
+    	var ids=['light1','light2','light3','light4','light5','light6','ac1','ac2','projector','pc','fan1','fan2'];
+    	var obj;
+			$.ajax({
+				type:"POST",
+				url:"view.php",
+				dataType:"JSON",
+				success:function(res)
+					{	var json_text=JSON.stringify(res);//convert encoded to string
+						obj=JSON.parse(json_text);//convert to obj
+						  
+						  rangeSlider(obj[12]);
+     					  myupdate(obj,ids);
+						
+						 
+					}
+				})
+		function rangeSlider(e){
+					$(".range-slider__range").attr("value",e);
+					
+				  $(".range-Slider").slider({
+				  	
+				  	min:0,
+				  	max:100,
+				  	value:e,
+
+				  })
+			
+			 	var slider = $('.range-slider'),
+				      range = $('.range-slider__range'),
+				      value = $('.range-slider__value');
+
+				    
+				 slider.each(function(){
+
+				    value.each(function(){
+				      var value = $(this).prev().attr('value');
+				      $(this).html(value);
+				    });
+				     
+				    range.on('input', function(){				    	
+				      $(this).next(value).html(this.value);
+				      $(".range-slider").slider();
+				    });
+
+
+				  });
+					
+				  
+				};
+
+			
+		
+			
+
+			function truefalse(e)
+			{
+				if(e==0)
+				{
+					return false;
+				}
+				return true;
+			}
+				
+			function myupdate (obj,ids) 
+			{
+				for(var i=0;i<12;i++)
+				{	
+					$("#"+ids[i]).prop("checked",truefalse(obj[i]));
+				}	
+			}
+
+				
+		
+		
+	}
+    </script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+
+
+
+    <script>
+			$(document).ready(function(){
+			  
+			  $("a").on('click', function(event) {
+
+			   
+			    if (this.hash !== "") {
+			     
+			      event.preventDefault();
+
+			      
+			      var hash = this.hash;
+
+			      
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 1200, function(){
+			   
+			      
+			        window.location.hash = hash;
+			      });
+			    } // End if
+			  });
+			});
+</script>
+    
+   <script type="text/javascript">
+   	
+$(window).on('resize', function(){
+   if($(this).width() < 620){
+       $("#wrapper").removeClass("toggled");
+       
+   }
+});
+$(window).on('resize', function(){
+   if($(this).width() >= 620){
+       $("#wrapper").addClass("toggled");
+       
+   }
+});
+   
+    </script> 
+
+	<script type="text/javascript">
+		
+		function update(id)
+		{
+			$.ajax({
+				type:"POST",
+				url:"update.php",
+				data:{
+						k:id
+						},
+				success:function(res)
+					{	
+						
+						 
+					}
+				})
+		}
+
+	</script>
+	
+	
+	
+
+	
+	
+</body></html>
